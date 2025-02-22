@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\GitHub\koel\app\Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=10.1.14" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=10.1.14" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=10.1.14" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">D:\GitHub\koel\app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Services</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Streamer/Adapters/DropboxStreamerAdapter.php.html#10">App\Services\Streamer\Adapters\DropboxStreamerAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/PhpStreamerAdapter.php.html#8">App\Services\Streamer\Adapters\PhpStreamerAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/SftpStreamerAdapter.php.html#9">App\Services\Streamer\Adapters\SftpStreamerAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/TranscodingStreamerAdapter.php.html#10">App\Services\Streamer\Adapters\TranscodingStreamerAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/XAccelRedirectStreamerAdapter.php.html#8">App\Services\Streamer\Adapters\XAccelRedirectStreamerAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/XSendFileStreamerAdapter.php.html#7">App\Services\Streamer\Adapters\XSendFileStreamerAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/Concerns/DeletesUsingFilesystem.php.html#9">App\Services\SongStorages\Concerns\DeletesUsingFilesystem</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/Concerns/StreamsLocalPath.php.html#17">App\Services\Streamer\Adapters\Concerns\StreamsLocalPath</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DownloadService.php.html#15">App\Services\DownloadService</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="Streamer/Adapters/PodcastStreamerAdapter.php.html#12">App\Services\Streamer\Adapters\PodcastStreamerAdapter</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="SongStorages/CloudStorage.php.html#13">App\Services\SongStorages\CloudStorage</a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="SongStorages/S3CompatibleStorage.php.html#15">App\Services\SongStorages\S3CompatibleStorage</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="License/CommunityLicenseService.php.html#10">App\Services\License\CommunityLicenseService</a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="SongStorages/SftpStorage.php.html#18">App\Services\SongStorages\SftpStorage</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Streamer/Adapters/S3CompatibleStreamerAdapter.php.html#10">App\Services\Streamer\Adapters\S3CompatibleStreamerAdapter</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ProxyAuthService.php.html#12">App\Services\ProxyAuthService</a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#19">App\Services\MediaScanner</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="LicenseService.php.html#22">App\Services\LicenseService</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="YouTubeService.php.html#11">App\Services\YouTubeService</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="PodcastService.php.html#29">App\Services\PodcastService</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="SimpleLrcReader.php.html#8">App\Services\SimpleLrcReader</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="SongStorages/S3LambdaStorage.php.html#21">App\Services\SongStorages\S3LambdaStorage</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#20">App\Services\SongStorages\LocalStorage</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="SearchService.php.html#21">App\Services\SearchService</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Util.php.html#5">App\Services\Util</a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="SpotifyService.php.html#10">App\Services\SpotifyService</a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="SongStorages/DropboxStorage.php.html#17">App\Services\SongStorages\DropboxStorage</a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DownloadService.php.html#15">App\Services\DownloadService</a></td><td class="text-right">95</td></tr>
+       <tr><td><a href="Streamer/Adapters/Concerns/StreamsLocalPath.php.html#17">App\Services\Streamer\Adapters\Concerns\StreamsLocalPath</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="MediaScanner.php.html#19">App\Services\MediaScanner</a></td><td class="text-right">43</td></tr>
+       <tr><td><a href="PodcastService.php.html#29">App\Services\PodcastService</a></td><td class="text-right">40</td></tr>
+       <tr><td><a href="LicenseService.php.html#22">App\Services\LicenseService</a></td><td class="text-right">31</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#20">App\Services\SongStorages\LocalStorage</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="SpotifyService.php.html#10">App\Services\SpotifyService</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Util.php.html#5">App\Services\Util</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="SongStorages/S3LambdaStorage.php.html#21">App\Services\SongStorages\S3LambdaStorage</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Streamer/Adapters/PodcastStreamerAdapter.php.html#12">App\Services\Streamer\Adapters\PodcastStreamerAdapter</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="SongStorages/DropboxStorage.php.html#17">App\Services\SongStorages\DropboxStorage</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="SimpleLrcReader.php.html#8">App\Services\SimpleLrcReader</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="ProxyAuthService.php.html#12">App\Services\ProxyAuthService</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Streamer/Adapters/TranscodingStreamerAdapter.php.html#10">App\Services\Streamer\Adapters\TranscodingStreamerAdapter</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SongStorages/Concerns/DeletesUsingFilesystem.php.html#9">App\Services\SongStorages\Concerns\DeletesUsingFilesystem</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="YouTubeService.php.html#11">App\Services\YouTubeService</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="SearchService.php.html#21">App\Services\SearchService</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DownloadService.php.html#17"><abbr title="App\Services\DownloadService::getDownloadablePath">getDownloadablePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LastfmService.php.html#107"><abbr title="App\Services\LastfmService::getSessionKey">getSessionKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LicenseService.php.html#133"><abbr title="App\Services\LicenseService::isPlus">isPlus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LicenseService.php.html#138"><abbr title="App\Services\LicenseService::isCommunity">isCommunity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="License/CommunityLicenseService.php.html#12"><abbr title="App\Services\License\CommunityLicenseService::activate">activate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="License/CommunityLicenseService.php.html#17"><abbr title="App\Services\License\CommunityLicenseService::deactivate">deactivate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="License/CommunityLicenseService.php.html#22"><abbr title="App\Services\License\CommunityLicenseService::getStatus">getStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#168"><abbr title="App\Services\MediaScanner::handleNewOrModifiedDirectoryRecord">handleNewOrModifiedDirectoryRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/CloudStorage.php.html#21"><abbr title="App\Services\SongStorages\CloudStorage::copyToLocal">copyToLocal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/DropboxStorage.php.html#84"><abbr title="App\Services\SongStorages\DropboxStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/DropboxStorage.php.html#90"><abbr title="App\Services\SongStorages\DropboxStorage::testSetup">testSetup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#104"><abbr title="App\Services\SongStorages\LocalStorage::testSetup">testSetup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/S3CompatibleStorage.php.html#53"><abbr title="App\Services\SongStorages\S3CompatibleStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/S3CompatibleStorage.php.html#59"><abbr title="App\Services\SongStorages\S3CompatibleStorage::testSetup">testSetup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/S3LambdaStorage.php.html#30"><abbr title="App\Services\SongStorages\S3LambdaStorage::storeUploadedFile">storeUploadedFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/S3LambdaStorage.php.html#87"><abbr title="App\Services\SongStorages\S3LambdaStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/S3LambdaStorage.php.html#92"><abbr title="App\Services\SongStorages\S3LambdaStorage::getStorageType">getStorageType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/SftpStorage.php.html#50"><abbr title="App\Services\SongStorages\SftpStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/SftpStorage.php.html#77"><abbr title="App\Services\SongStorages\SftpStorage::testSetup">testSetup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/SftpStorage.php.html#83"><abbr title="App\Services\SongStorages\SftpStorage::generateRemotePath">generateRemotePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/DropboxStreamerAdapter.php.html#12"><abbr title="App\Services\Streamer\Adapters\DropboxStreamerAdapter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/DropboxStreamerAdapter.php.html#16"><abbr title="App\Services\Streamer\Adapters\DropboxStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/PhpStreamerAdapter.php.html#12"><abbr title="App\Services\Streamer\Adapters\PhpStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/PodcastStreamerAdapter.php.html#20"><abbr title="App\Services\Streamer\Adapters\PodcastStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/S3CompatibleStreamerAdapter.php.html#16"><abbr title="App\Services\Streamer\Adapters\S3CompatibleStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/SftpStreamerAdapter.php.html#13"><abbr title="App\Services\Streamer\Adapters\SftpStreamerAdapter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/SftpStreamerAdapter.php.html#17"><abbr title="App\Services\Streamer\Adapters\SftpStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/TranscodingStreamerAdapter.php.html#14"><abbr title="App\Services\Streamer\Adapters\TranscodingStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/XAccelRedirectStreamerAdapter.php.html#14"><abbr title="App\Services\Streamer\Adapters\XAccelRedirectStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/XSendFileStreamerAdapter.php.html#12"><abbr title="App\Services\Streamer\Adapters\XSendFileStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserService.php.html#124"><abbr title="App\Services\UserService::savePreference">savePreference</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SongStorages/Concerns/DeletesUsingFilesystem.php.html#11"><abbr title="App\Services\SongStorages\Concerns\DeletesUsingFilesystem::deleteUsingFileSystem">deleteUsingFileSystem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Streamer/Adapters/Concerns/StreamsLocalPath.php.html#19"><abbr title="App\Services\Streamer\Adapters\Concerns\StreamsLocalPath::streamLocalPath">streamLocalPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DownloadService.php.html#29"><abbr title="App\Services\DownloadService::getLocalPath">getLocalPath</abbr></a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="PodcastService.php.html#89"><abbr title="App\Services\PodcastService::refreshPodcast">refreshPodcast</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="SongStorages/S3CompatibleStorage.php.html#24"><abbr title="App\Services\SongStorages\S3CompatibleStorage::storeUploadedFile">storeUploadedFile</abbr></a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="SongStorages/SftpStorage.php.html#27"><abbr title="App\Services\SongStorages\SftpStorage::storeUploadedFile">storeUploadedFile</abbr></a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#123"><abbr title="App\Services\MediaScanner::setSystemRequirements">setSystemRequirements</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ProxyAuthService.php.html#18"><abbr title="App\Services\ProxyAuthService::tryGetProxyAuthenticatedUserFromRequest">tryGetProxyAuthenticatedUserFromRequest</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="SimpleLrcReader.php.html#10"><abbr title="App\Services\SimpleLrcReader::tryReadForMediaFile">tryReadForMediaFile</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="SongStorages/S3CompatibleStorage.php.html#46"><abbr title="App\Services\SongStorages\S3CompatibleStorage::getSongPresignedUrl">getSongPresignedUrl</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="LicenseService.php.html#50"><abbr title="App\Services\LicenseService::deactivate">deactivate</abbr></a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="SearchService.php.html#51"><abbr title="App\Services\SearchService::excerptScoutSearch">excerptScoutSearch</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="LicenseService.php.html#73"><abbr title="App\Services\LicenseService::getStatus">getStatus</abbr></a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#111"><abbr title="App\Services\MediaScanner::scanDirectoryRecord">scanDirectoryRecord</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="AuthenticationService.php.html#24"><abbr title="App\Services\AuthenticationService::login">login</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="PodcastService.php.html#185"><abbr title="App\Services\PodcastService::isPodcastObsolete">isPodcastObsolete</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="YouTubeService.php.html#22"><abbr title="App\Services\YouTubeService::searchVideosRelatedToSong">searchVideosRelatedToSong</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#32"><abbr title="App\Services\MediaScanner::scan">scan</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#146"><abbr title="App\Services\MediaScanner::handleNewOrModifiedFileRecord">handleNewOrModifiedFileRecord</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#157"><abbr title="App\Services\MediaScanner::handleDeletedDirectoryRecord">handleDeletedDirectoryRecord</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#93"><abbr title="App\Services\SongStorages\LocalStorage::delete">delete</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="MediaScanner.php.html#134"><abbr title="App\Services\MediaScanner::handleDeletedFileRecord">handleDeletedFileRecord</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#26"><abbr title="App\Services\SongStorages\LocalStorage::storeUploadedFile">storeUploadedFile</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="PodcastService.php.html#205"><abbr title="App\Services\PodcastService::getStreamableUrl">getStreamableUrl</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Util.php.html#16"><abbr title="App\Services\Util::detectUTFEncoding">detectUTFEncoding</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="PodcastService.php.html#38"><abbr title="App\Services\PodcastService::addPodcast">addPodcast</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="MediaMetadataService.php.html#78"><abbr title="App\Services\MediaMetadataService::writePlaylistCover">writePlaylistCover</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="PlaylistCollaborationService.php.html#28"><abbr title="App\Services\PlaylistCollaborationService::acceptUsingToken">acceptUsingToken</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="SpotifyService.php.html#21"><abbr title="App\Services\SpotifyService::tryGetArtistImage">tryGetArtistImage</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="SpotifyService.php.html#37"><abbr title="App\Services\SpotifyService::tryGetAlbumCover">tryGetAlbumCover</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="LastfmService.php.html#45"><abbr title="App\Services\LastfmService::getArtistInformation">getArtistInformation</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="LastfmService.php.html#60"><abbr title="App\Services\LastfmService::getAlbumInformation">getAlbumInformation</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DownloadService.php.html#29"><abbr title="App\Services\DownloadService::getLocalPath">getLocalPath</abbr></a></td><td class="text-right">57</td></tr>
+       <tr><td><a href="Streamer/Adapters/Concerns/StreamsLocalPath.php.html#19"><abbr title="App\Services\Streamer\Adapters\Concerns\StreamsLocalPath::streamLocalPath">streamLocalPath</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="LicenseService.php.html#73"><abbr title="App\Services\LicenseService::getStatus">getStatus</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MediaScanner.php.html#168"><abbr title="App\Services\MediaScanner::handleNewOrModifiedDirectoryRecord">handleNewOrModifiedDirectoryRecord</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#104"><abbr title="App\Services\SongStorages\LocalStorage::testSetup">testSetup</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PodcastService.php.html#205"><abbr title="App\Services\PodcastService::getStreamableUrl">getStreamableUrl</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="LicenseService.php.html#50"><abbr title="App\Services\LicenseService::deactivate">deactivate</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="PodcastService.php.html#89"><abbr title="App\Services\PodcastService::refreshPodcast">refreshPodcast</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DownloadService.php.html#17"><abbr title="App\Services\DownloadService::getDownloadablePath">getDownloadablePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Streamer/Adapters/PodcastStreamerAdapter.php.html#20"><abbr title="App\Services\Streamer\Adapters\PodcastStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Streamer/Adapters/TranscodingStreamerAdapter.php.html#14"><abbr title="App\Services\Streamer\Adapters\TranscodingStreamerAdapter::stream">stream</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SongStorages/Concerns/DeletesUsingFilesystem.php.html#11"><abbr title="App\Services\SongStorages\Concerns\DeletesUsingFilesystem::deleteUsingFileSystem">deleteUsingFileSystem</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MediaScanner.php.html#32"><abbr title="App\Services\MediaScanner::scan">scan</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="PodcastService.php.html#38"><abbr title="App\Services\PodcastService::addPodcast">addPodcast</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="SpotifyService.php.html#37"><abbr title="App\Services\SpotifyService::tryGetAlbumCover">tryGetAlbumCover</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="AuthenticationService.php.html#24"><abbr title="App\Services\AuthenticationService::login">login</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="PodcastService.php.html#185"><abbr title="App\Services\PodcastService::isPodcastObsolete">isPodcastObsolete</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="MediaScanner.php.html#123"><abbr title="App\Services\MediaScanner::setSystemRequirements">setSystemRequirements</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ProxyAuthService.php.html#18"><abbr title="App\Services\ProxyAuthService::tryGetProxyAuthenticatedUserFromRequest">tryGetProxyAuthenticatedUserFromRequest</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="SimpleLrcReader.php.html#10"><abbr title="App\Services\SimpleLrcReader::tryReadForMediaFile">tryReadForMediaFile</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Util.php.html#16"><abbr title="App\Services\Util::detectUTFEncoding">detectUTFEncoding</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="SpotifyService.php.html#21"><abbr title="App\Services\SpotifyService::tryGetArtistImage">tryGetArtistImage</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="MediaScanner.php.html#111"><abbr title="App\Services\MediaScanner::scanDirectoryRecord">scanDirectoryRecord</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="YouTubeService.php.html#22"><abbr title="App\Services\YouTubeService::searchVideosRelatedToSong">searchVideosRelatedToSong</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#26"><abbr title="App\Services\SongStorages\LocalStorage::storeUploadedFile">storeUploadedFile</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="LastfmService.php.html#45"><abbr title="App\Services\LastfmService::getArtistInformation">getArtistInformation</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="LastfmService.php.html#60"><abbr title="App\Services\LastfmService::getAlbumInformation">getAlbumInformation</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="SearchService.php.html#51"><abbr title="App\Services\SearchService::excerptScoutSearch">excerptScoutSearch</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MediaScanner.php.html#146"><abbr title="App\Services\MediaScanner::handleNewOrModifiedFileRecord">handleNewOrModifiedFileRecord</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MediaScanner.php.html#157"><abbr title="App\Services\MediaScanner::handleDeletedDirectoryRecord">handleDeletedDirectoryRecord</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="SongStorages/LocalStorage.php.html#93"><abbr title="App\Services\SongStorages\LocalStorage::delete">delete</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MediaScanner.php.html#134"><abbr title="App\Services\MediaScanner::handleDeletedFileRecord">handleDeletedFileRecord</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MediaMetadataService.php.html#78"><abbr title="App\Services\MediaMetadataService::writePlaylistCover">writePlaylistCover</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="PlaylistCollaborationService.php.html#28"><abbr title="App\Services\PlaylistCollaborationService::acceptUsingToken">acceptUsingToken</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.14</a> using <a href="https://www.php.net/" target="_top">PHP 8.1.31</a> and <a href="https://phpunit.de/">PHPUnit 10.5.19</a> at Sat Feb 22 22:38:05 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=10.1.14" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=10.1.14" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=10.1.14" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,2,1,1,1,2,1,5,6,9,15], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([33,0,0,2,2,0,6,2,7,11,7,158], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"ApplicationInformationService.php.html#8\">App\\Services\\ApplicationInformationService<\/a>"],[92.5925925925926,11,"<a href=\"AuthenticationService.php.html#15\">App\\Services\\AuthenticationService<\/a>"],[16.666666666666664,12,"<a href=\"DownloadService.php.html#15\">App\\Services\\DownloadService<\/a>"],[100,33,"<a href=\"FileScanner.php.html#18\">App\\Services\\FileScanner<\/a>"],[94.44444444444444,5,"<a href=\"ITunesService.php.html#10\">App\\Services\\ITunesService<\/a>"],[100,5,"<a href=\"ImageWriter.php.html#9\">App\\Services\\ImageWriter<\/a>"],[94.5945945945946,6,"<a href=\"InteractionService.php.html#13\">App\\Services\\InteractionService<\/a>"],[91.42857142857143,17,"<a href=\"LastfmService.php.html#23\">App\\Services\\LastfmService<\/a>"],[100,2,"<a href=\"LibraryManager.php.html#9\">App\\Services\\LibraryManager<\/a>"],[76.36363636363637,24,"<a href=\"LicenseService.php.html#22\">App\\Services\\LicenseService<\/a>"],[40,5,"<a href=\"License\/CommunityLicenseService.php.html#10\">App\\Services\\License\\CommunityLicenseService<\/a>"],[93.10344827586206,8,"<a href=\"MediaInformationService.php.html#12\">App\\Services\\MediaInformationService<\/a>"],[97.77777777777777,23,"<a href=\"MediaMetadataService.php.html#11\">App\\Services\\MediaMetadataService<\/a>"],[73.13432835820896,28,"<a href=\"MediaScanner.php.html#19\">App\\Services\\MediaScanner<\/a>"],[100,2,"<a href=\"NullMusicEncyclopedia.php.html#11\">App\\Services\\NullMusicEncyclopedia<\/a>"],[95.83333333333334,5,"<a href=\"PlaylistCollaborationService.php.html#18\">App\\Services\\PlaylistCollaborationService<\/a>"],[100,4,"<a href=\"PlaylistFolderService.php.html#10\">App\\Services\\PlaylistFolderService<\/a>"],[98.38709677419355,20,"<a href=\"PlaylistService.php.html#20\">App\\Services\\PlaylistService<\/a>"],[77.67857142857143,30,"<a href=\"PodcastService.php.html#29\">App\\Services\\PodcastService<\/a>"],[62.5,5,"<a href=\"ProxyAuthService.php.html#12\">App\\Services\\ProxyAuthService<\/a>"],[100,5,"<a href=\"QueueService.php.html#11\">App\\Services\\QueueService<\/a>"],[86.36363636363636,5,"<a href=\"SearchService.php.html#21\">App\\Services\\SearchService<\/a>"],[77.77777777777779,7,"<a href=\"SimpleLrcReader.php.html#8\">App\\Services\\SimpleLrcReader<\/a>"],[100,2,"<a href=\"SmartPlaylistService.php.html#17\">App\\Services\\SmartPlaylistService<\/a>"],[100,20,"<a href=\"SongService.php.html#19\">App\\Services\\SongService<\/a>"],[22.22222222222222,3,"<a href=\"SongStorages\/CloudStorage.php.html#13\">App\\Services\\SongStorages\\CloudStorage<\/a>"],[89.1891891891892,8,"<a href=\"SongStorages\/DropboxStorage.php.html#17\">App\\Services\\SongStorages\\DropboxStorage<\/a>"],[81.81818181818183,14,"<a href=\"SongStorages\/LocalStorage.php.html#20\">App\\Services\\SongStorages\\LocalStorage<\/a>"],[33.33333333333333,6,"<a href=\"SongStorages\/S3CompatibleStorage.php.html#15\">App\\Services\\SongStorages\\S3CompatibleStorage<\/a>"],[80,9,"<a href=\"SongStorages\/S3LambdaStorage.php.html#21\">App\\Services\\SongStorages\\S3LambdaStorage<\/a>"],[50,8,"<a href=\"SongStorages\/SftpStorage.php.html#18\">App\\Services\\SongStorages\\SftpStorage<\/a>"],[100,1,"<a href=\"SongStorages\/SongStorage.php.html#11\">App\\Services\\SongStorages\\SongStorage<\/a>"],[88.88888888888889,12,"<a href=\"SpotifyService.php.html#10\">App\\Services\\SpotifyService<\/a>"],[0,2,"<a href=\"Streamer\/Adapters\/DropboxStreamerAdapter.php.html#10\">App\\Services\\Streamer\\Adapters\\DropboxStreamerAdapter<\/a>"],[100,0,"<a href=\"Streamer\/Adapters\/LocalStreamerAdapter.php.html#5\">App\\Services\\Streamer\\Adapters\\LocalStreamerAdapter<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/PhpStreamerAdapter.php.html#8\">App\\Services\\Streamer\\Adapters\\PhpStreamerAdapter<\/a>"],[16.666666666666664,3,"<a href=\"Streamer\/Adapters\/PodcastStreamerAdapter.php.html#12\">App\\Services\\Streamer\\Adapters\\PodcastStreamerAdapter<\/a>"],[50,2,"<a href=\"Streamer\/Adapters\/S3CompatibleStreamerAdapter.php.html#10\">App\\Services\\Streamer\\Adapters\\S3CompatibleStreamerAdapter<\/a>"],[0,2,"<a href=\"Streamer\/Adapters\/SftpStreamerAdapter.php.html#9\">App\\Services\\Streamer\\Adapters\\SftpStreamerAdapter<\/a>"],[0,2,"<a href=\"Streamer\/Adapters\/TranscodingStreamerAdapter.php.html#10\">App\\Services\\Streamer\\Adapters\\TranscodingStreamerAdapter<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/XAccelRedirectStreamerAdapter.php.html#8\">App\\Services\\Streamer\\Adapters\\XAccelRedirectStreamerAdapter<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/XSendFileStreamerAdapter.php.html#7\">App\\Services\\Streamer\\Adapters\\XSendFileStreamerAdapter<\/a>"],[100,11,"<a href=\"Streamer\/Streamer.php.html#19\">App\\Services\\Streamer\\Streamer<\/a>"],[100,8,"<a href=\"TokenManager.php.html#11\">App\\Services\\TokenManager<\/a>"],[100,6,"<a href=\"UserInvitationService.php.html#15\">App\\Services\\UserInvitationService<\/a>"],[96.42857142857143,18,"<a href=\"UserService.php.html#14\">App\\Services\\UserService<\/a>"],[88.23529411764706,10,"<a href=\"Util.php.html#5\">App\\Services\\Util<\/a>"],[76.92307692307693,5,"<a href=\"YouTubeService.php.html#11\">App\\Services\\YouTubeService<\/a>"],[0,2,"<a href=\"SongStorages\/Concerns\/DeletesUsingFilesystem.php.html#9\">App\\Services\\SongStorages\\Concerns\\DeletesUsingFilesystem<\/a>"],[100,1,"<a href=\"SongStorages\/Concerns\/ScansUploadedFile.php.html#13\">App\\Services\\SongStorages\\Concerns\\ScansUploadedFile<\/a>"],[0,7,"<a href=\"Streamer\/Adapters\/Concerns\/StreamsLocalPath.php.html#17\">App\\Services\\Streamer\\Adapters\\Concerns\\StreamsLocalPath<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"ApplicationInformationService.php.html#10\">App\\Services\\ApplicationInformationService::__construct<\/a>"],[100,1,"<a href=\"ApplicationInformationService.php.html#17\">App\\Services\\ApplicationInformationService::getLatestVersionNumber<\/a>"],[100,1,"<a href=\"AuthenticationService.php.html#17\">App\\Services\\AuthenticationService::__construct<\/a>"],[71.42857142857143,4,"<a href=\"AuthenticationService.php.html#24\">App\\Services\\AuthenticationService::login<\/a>"],[100,1,"<a href=\"AuthenticationService.php.html#40\">App\\Services\\AuthenticationService::logUserIn<\/a>"],[100,1,"<a href=\"AuthenticationService.php.html#45\">App\\Services\\AuthenticationService::logoutViaBearerToken<\/a>"],[100,1,"<a href=\"AuthenticationService.php.html#50\">App\\Services\\AuthenticationService::trySendResetPasswordLink<\/a>"],[100,1,"<a href=\"AuthenticationService.php.html#55\">App\\Services\\AuthenticationService::tryResetPasswordUsingBroker<\/a>"],[100,1,"<a href=\"AuthenticationService.php.html#73\">App\\Services\\AuthenticationService::generateOneTimeToken<\/a>"],[100,1,"<a href=\"AuthenticationService.php.html#81\">App\\Services\\AuthenticationService::loginViaOneTimeToken<\/a>"],[0,2,"<a href=\"DownloadService.php.html#17\">App\\Services\\DownloadService::getDownloadablePath<\/a>"],[22.22222222222222,10,"<a href=\"DownloadService.php.html#29\">App\\Services\\DownloadService::getLocalPath<\/a>"],[100,1,"<a href=\"FileScanner.php.html#30\">App\\Services\\FileScanner::__construct<\/a>"],[100,2,"<a href=\"FileScanner.php.html#39\">App\\Services\\FileScanner::setFile<\/a>"],[100,5,"<a href=\"FileScanner.php.html#50\">App\\Services\\FileScanner::getScanInformation<\/a>"],[100,11,"<a href=\"FileScanner.php.html#67\">App\\Services\\FileScanner::scan<\/a>"],[100,3,"<a href=\"FileScanner.php.html#112\">App\\Services\\FileScanner::tryGenerateAlbumCover<\/a>"],[100,4,"<a href=\"FileScanner.php.html#136\">App\\Services\\FileScanner::getCoverFileUnderSameDirectory<\/a>"],[100,1,"<a href=\"FileScanner.php.html#158\">App\\Services\\FileScanner::isImage<\/a>"],[100,1,"<a href=\"FileScanner.php.html#166\">App\\Services\\FileScanner::isFileNew<\/a>"],[100,2,"<a href=\"FileScanner.php.html#174\">App\\Services\\FileScanner::isFileChanged<\/a>"],[100,2,"<a href=\"FileScanner.php.html#179\">App\\Services\\FileScanner::isFileNewOrChanged<\/a>"],[100,1,"<a href=\"FileScanner.php.html#184\">App\\Services\\FileScanner::getSong<\/a>"],[100,1,"<a href=\"ITunesService.php.html#12\">App\\Services\\ITunesService::__construct<\/a>"],[100,1,"<a href=\"ITunesService.php.html#16\">App\\Services\\ITunesService::used<\/a>"],[93.75,3,"<a href=\"ITunesService.php.html#21\">App\\Services\\ITunesService::getTrackUrl<\/a>"],[100,1,"<a href=\"ImageWriter.php.html#16\">App\\Services\\ImageWriter::__construct<\/a>"],[100,2,"<a href=\"ImageWriter.php.html#21\">App\\Services\\ImageWriter::getSupportedFormat<\/a>"],[100,2,"<a href=\"ImageWriter.php.html#26\">App\\Services\\ImageWriter::write<\/a>"],[90,2,"<a href=\"InteractionService.php.html#15\">App\\Services\\InteractionService::increasePlayCount<\/a>"],[100,1,"<a href=\"InteractionService.php.html#37\">App\\Services\\InteractionService::toggleLike<\/a>"],[92.85714285714286,2,"<a href=\"InteractionService.php.html#57\">App\\Services\\InteractionService::likeMany<\/a>"],[100,1,"<a href=\"InteractionService.php.html#86\">App\\Services\\InteractionService::unlikeMany<\/a>"],[100,1,"<a href=\"LastfmService.php.html#25\">App\\Services\\LastfmService::__construct<\/a>"],[100,1,"<a href=\"LastfmService.php.html#32\">App\\Services\\LastfmService::used<\/a>"],[100,2,"<a href=\"LastfmService.php.html#40\">App\\Services\\LastfmService::enabled<\/a>"],[88.88888888888889,3,"<a href=\"LastfmService.php.html#45\">App\\Services\\LastfmService::getArtistInformation<\/a>"],[88.88888888888889,3,"<a href=\"LastfmService.php.html#60\">App\\Services\\LastfmService::getAlbumInformation<\/a>"],[100,1,"<a href=\"LastfmService.php.html#75\">App\\Services\\LastfmService::scrobble<\/a>"],[100,1,"<a href=\"LastfmService.php.html#80\">App\\Services\\LastfmService::toggleLoveTrack<\/a>"],[100,2,"<a href=\"LastfmService.php.html#88\">App\\Services\\LastfmService::batchToggleLoveTracks<\/a>"],[100,1,"<a href=\"LastfmService.php.html#102\">App\\Services\\LastfmService::updateNowPlaying<\/a>"],[0,1,"<a href=\"LastfmService.php.html#107\">App\\Services\\LastfmService::getSessionKey<\/a>"],[100,1,"<a href=\"LastfmService.php.html#112\">App\\Services\\LastfmService::setUserSessionKey<\/a>"],[100,2,"<a href=\"LibraryManager.php.html#16\">App\\Services\\LibraryManager::prune<\/a>"],[100,1,"<a href=\"LicenseService.php.html#24\">App\\Services\\LicenseService::__construct<\/a>"],[100,4,"<a href=\"LicenseService.php.html#29\">App\\Services\\LicenseService::activate<\/a>"],[54.54545454545454,5,"<a href=\"LicenseService.php.html#50\">App\\Services\\LicenseService::deactivate<\/a>"],[64.70588235294117,9,"<a href=\"LicenseService.php.html#73\">App\\Services\\LicenseService::getStatus<\/a>"],[100,1,"<a href=\"LicenseService.php.html#107\">App\\Services\\LicenseService::updateOrCreateLicenseFromApiResponseBody<\/a>"],[100,1,"<a href=\"LicenseService.php.html#120\">App\\Services\\LicenseService::deleteLicense<\/a>"],[100,1,"<a href=\"LicenseService.php.html#126\">App\\Services\\LicenseService::cacheStatus<\/a>"],[0,1,"<a href=\"LicenseService.php.html#133\">App\\Services\\LicenseService::isPlus<\/a>"],[0,1,"<a href=\"LicenseService.php.html#138\">App\\Services\\LicenseService::isCommunity<\/a>"],[0,1,"<a href=\"License\/CommunityLicenseService.php.html#12\">App\\Services\\License\\CommunityLicenseService::activate<\/a>"],[0,1,"<a href=\"License\/CommunityLicenseService.php.html#17\">App\\Services\\License\\CommunityLicenseService::deactivate<\/a>"],[0,1,"<a href=\"License\/CommunityLicenseService.php.html#22\">App\\Services\\License\\CommunityLicenseService::getStatus<\/a>"],[100,1,"<a href=\"License\/CommunityLicenseService.php.html#27\">App\\Services\\License\\CommunityLicenseService::isPlus<\/a>"],[100,1,"<a href=\"License\/CommunityLicenseService.php.html#32\">App\\Services\\License\\CommunityLicenseService::isCommunity<\/a>"],[100,1,"<a href=\"MediaInformationService.php.html#14\">App\\Services\\MediaInformationService::__construct<\/a>"],[92.85714285714286,3,"<a href=\"MediaInformationService.php.html#20\">App\\Services\\MediaInformationService::getAlbumInformation<\/a>"],[92.85714285714286,4,"<a href=\"MediaInformationService.php.html#42\">App\\Services\\MediaInformationService::getArtistInformation<\/a>"],[100,1,"<a href=\"MediaMetadataService.php.html#13\">App\\Services\\MediaMetadataService::__construct<\/a>"],[100,1,"<a href=\"MediaMetadataService.php.html#19\">App\\Services\\MediaMetadataService::tryDownloadAlbumCover<\/a>"],[100,3,"<a href=\"MediaMetadataService.php.html#32\">App\\Services\\MediaMetadataService::writeAlbumCover<\/a>"],[100,1,"<a href=\"MediaMetadataService.php.html#47\">App\\Services\\MediaMetadataService::tryDownloadArtistImage<\/a>"],[100,4,"<a href=\"MediaMetadataService.php.html#60\">App\\Services\\MediaMetadataService::writeArtistImage<\/a>"],[85.71428571428571,2,"<a href=\"MediaMetadataService.php.html#78\">App\\Services\\MediaMetadataService::writePlaylistCover<\/a>"],[100,1,"<a href=\"MediaMetadataService.php.html#92\">App\\Services\\MediaMetadataService::generateAlbumCoverPath<\/a>"],[100,1,"<a href=\"MediaMetadataService.php.html#97\">App\\Services\\MediaMetadataService::generateArtistImagePath<\/a>"],[100,1,"<a href=\"MediaMetadataService.php.html#102\">App\\Services\\MediaMetadataService::generatePlaylistCoverPath<\/a>"],[100,3,"<a href=\"MediaMetadataService.php.html#111\">App\\Services\\MediaMetadataService::getAlbumThumbnailUrl<\/a>"],[100,1,"<a href=\"MediaMetadataService.php.html#124\">App\\Services\\MediaMetadataService::createThumbnailForAlbum<\/a>"],[100,2,"<a href=\"MediaMetadataService.php.html#129\">App\\Services\\MediaMetadataService::deleteAlbumCoverFiles<\/a>"],[100,2,"<a href=\"MediaMetadataService.php.html#139\">App\\Services\\MediaMetadataService::deletePlaylistCover<\/a>"],[100,1,"<a href=\"MediaScanner.php.html#24\">App\\Services\\MediaScanner::__construct<\/a>"],[75,5,"<a href=\"MediaScanner.php.html#32\">App\\Services\\MediaScanner::scan<\/a>"],[100,1,"<a href=\"MediaScanner.php.html#75\">App\\Services\\MediaScanner::gatherFiles<\/a>"],[100,2,"<a href=\"MediaScanner.php.html#88\">App\\Services\\MediaScanner::scanWatchRecord<\/a>"],[100,3,"<a href=\"MediaScanner.php.html#99\">App\\Services\\MediaScanner::scanFileRecord<\/a>"],[66.66666666666666,3,"<a href=\"MediaScanner.php.html#111\">App\\Services\\MediaScanner::scanDirectoryRecord<\/a>"],[50,3,"<a href=\"MediaScanner.php.html#123\">App\\Services\\MediaScanner::setSystemRequirements<\/a>"],[80,2,"<a href=\"MediaScanner.php.html#134\">App\\Services\\MediaScanner::handleDeletedFileRecord<\/a>"],[75,2,"<a href=\"MediaScanner.php.html#146\">App\\Services\\MediaScanner::handleNewOrModifiedFileRecord<\/a>"],[75,2,"<a href=\"MediaScanner.php.html#157\">App\\Services\\MediaScanner::handleDeletedDirectoryRecord<\/a>"],[0,3,"<a href=\"MediaScanner.php.html#168\">App\\Services\\MediaScanner::handleNewOrModifiedDirectoryRecord<\/a>"],[100,1,"<a href=\"MediaScanner.php.html#185\">App\\Services\\MediaScanner::on<\/a>"],[100,1,"<a href=\"NullMusicEncyclopedia.php.html#13\">App\\Services\\NullMusicEncyclopedia::getArtistInformation<\/a>"],[100,1,"<a href=\"NullMusicEncyclopedia.php.html#18\">App\\Services\\NullMusicEncyclopedia::getAlbumInformation<\/a>"],[100,1,"<a href=\"PlaylistCollaborationService.php.html#20\">App\\Services\\PlaylistCollaborationService::createToken<\/a>"],[87.5,2,"<a href=\"PlaylistCollaborationService.php.html#28\">App\\Services\\PlaylistCollaborationService::acceptUsingToken<\/a>"],[100,1,"<a href=\"PlaylistCollaborationService.php.html#49\">App\\Services\\PlaylistCollaborationService::getCollaborators<\/a>"],[100,1,"<a href=\"PlaylistCollaborationService.php.html#60\">App\\Services\\PlaylistCollaborationService::removeCollaborator<\/a>"],[100,1,"<a href=\"PlaylistFolderService.php.html#12\">App\\Services\\PlaylistFolderService::createFolder<\/a>"],[100,1,"<a href=\"PlaylistFolderService.php.html#17\">App\\Services\\PlaylistFolderService::renameFolder<\/a>"],[100,1,"<a href=\"PlaylistFolderService.php.html#24\">App\\Services\\PlaylistFolderService::addPlaylistsToFolder<\/a>"],[100,1,"<a href=\"PlaylistFolderService.php.html#44\">App\\Services\\PlaylistFolderService::movePlaylistsToRootLevel<\/a>"],[100,1,"<a href=\"PlaylistService.php.html#22\">App\\Services\\PlaylistService::__construct<\/a>"],[100,7,"<a href=\"PlaylistService.php.html#26\">App\\Services\\PlaylistService::createPlaylist<\/a>"],[91.66666666666666,4,"<a href=\"PlaylistService.php.html#63\">App\\Services\\PlaylistService::updatePlaylist<\/a>"],[100,2,"<a href=\"PlaylistService.php.html#90\">App\\Services\\PlaylistService::addPlayablesToPlaylist<\/a>"],[100,1,"<a href=\"PlaylistService.php.html#116\">App\\Services\\PlaylistService::removePlayablesFromPlaylist<\/a>"],[100,1,"<a href=\"PlaylistService.php.html#121\">App\\Services\\PlaylistService::makePlaylistContentPublic<\/a>"],[100,4,"<a href=\"PlaylistService.php.html#126\">App\\Services\\PlaylistService::movePlayablesInPlaylist<\/a>"],[100,1,"<a href=\"PodcastService.php.html#31\">App\\Services\\PodcastService::__construct<\/a>"],[84.84848484848484,5,"<a href=\"PodcastService.php.html#38\">App\\Services\\PodcastService::addPodcast<\/a>"],[25,3,"<a href=\"PodcastService.php.html#89\">App\\Services\\PodcastService::refreshPodcast<\/a>"],[100,5,"<a href=\"PodcastService.php.html#121\">App\\Services\\PodcastService::synchronizeEpisodes<\/a>"],[100,1,"<a href=\"PodcastService.php.html#158\">App\\Services\\PodcastService::subscribeUserToPodcast<\/a>"],[100,1,"<a href=\"PodcastService.php.html#166\">App\\Services\\PodcastService::updateEpisodeProgress<\/a>"],[100,1,"<a href=\"PodcastService.php.html#180\">App\\Services\\PodcastService::unsubscribeUserFromPodcast<\/a>"],[71.42857142857143,4,"<a href=\"PodcastService.php.html#185\">App\\Services\\PodcastService::isPodcastObsolete<\/a>"],[83.33333333333334,8,"<a href=\"PodcastService.php.html#205\">App\\Services\\PodcastService::getStreamableUrl<\/a>"],[100,1,"<a href=\"PodcastService.php.html#238\">App\\Services\\PodcastService::createParser<\/a>"],[100,1,"<a href=\"ProxyAuthService.php.html#14\">App\\Services\\ProxyAuthService::__construct<\/a>"],[50,3,"<a href=\"ProxyAuthService.php.html#18\">App\\Services\\ProxyAuthService::tryGetProxyAuthenticatedUserFromRequest<\/a>"],[100,1,"<a href=\"ProxyAuthService.php.html#33\">App\\Services\\ProxyAuthService::validateProxyIp<\/a>"],[100,1,"<a href=\"QueueService.php.html#13\">App\\Services\\QueueService::__construct<\/a>"],[100,2,"<a href=\"QueueService.php.html#17\">App\\Services\\QueueService::getQueueState<\/a>"],[100,1,"<a href=\"QueueService.php.html#35\">App\\Services\\QueueService::updateQueueState<\/a>"],[100,1,"<a href=\"QueueService.php.html#40\">App\\Services\\QueueService::updatePlaybackStatus<\/a>"],[100,1,"<a href=\"SearchService.php.html#26\">App\\Services\\SearchService::__construct<\/a>"],[100,1,"<a href=\"SearchService.php.html#34\">App\\Services\\SearchService::excerptSearch<\/a>"],[57.14285714285714,2,"<a href=\"SearchService.php.html#51\">App\\Services\\SearchService::excerptScoutSearch<\/a>"],[100,1,"<a href=\"SearchService.php.html#66\">App\\Services\\SearchService::searchSongs<\/a>"],[50,3,"<a href=\"SimpleLrcReader.php.html#10\">App\\Services\\SimpleLrcReader::tryReadForMediaFile<\/a>"],[100,4,"<a href=\"SimpleLrcReader.php.html#21\">App\\Services\\SimpleLrcReader::getLrcFilePath<\/a>"],[100,2,"<a href=\"SmartPlaylistService.php.html#20\">App\\Services\\SmartPlaylistService::getSongs<\/a>"],[100,1,"<a href=\"SongService.php.html#21\">App\\Services\\SongService::__construct<\/a>"],[100,11,"<a href=\"SongService.php.html#28\">App\\Services\\SongService::updateSongs<\/a>"],[100,4,"<a href=\"SongService.php.html#67\">App\\Services\\SongService::updateSong<\/a>"],[100,1,"<a href=\"SongService.php.html#101\">App\\Services\\SongService::markSongsAsPublic<\/a>"],[100,1,"<a href=\"SongService.php.html#107\">App\\Services\\SongService::markSongsAsPrivate<\/a>"],[100,2,"<a href=\"SongService.php.html#133\">App\\Services\\SongService::deleteSongs<\/a>"],[100,1,"<a href=\"SongStorages\/CloudStorage.php.html#17\">App\\Services\\SongStorages\\CloudStorage::__construct<\/a>"],[0,1,"<a href=\"SongStorages\/CloudStorage.php.html#21\">App\\Services\\SongStorages\\CloudStorage::copyToLocal<\/a>"],[100,1,"<a href=\"SongStorages\/CloudStorage.php.html#36\">App\\Services\\SongStorages\\CloudStorage::generateStorageKey<\/a>"],[100,0,"<a href=\"SongStorages\/CloudStorage.php.html#41\">App\\Services\\SongStorages\\CloudStorage::getSongPresignedUrl<\/a>"],[100,1,"<a href=\"SongStorages\/DropboxStorage.php.html#21\">App\\Services\\SongStorages\\DropboxStorage::__construct<\/a>"],[100,1,"<a href=\"SongStorages\/DropboxStorage.php.html#31\">App\\Services\\SongStorages\\DropboxStorage::storeUploadedFile<\/a>"],[100,2,"<a href=\"SongStorages\/DropboxStorage.php.html#53\">App\\Services\\SongStorages\\DropboxStorage::maybeRefreshAccessToken<\/a>"],[100,1,"<a href=\"SongStorages\/DropboxStorage.php.html#77\">App\\Services\\SongStorages\\DropboxStorage::getSongPresignedUrl<\/a>"],[0,1,"<a href=\"SongStorages\/DropboxStorage.php.html#84\">App\\Services\\SongStorages\\DropboxStorage::delete<\/a>"],[0,1,"<a href=\"SongStorages\/DropboxStorage.php.html#90\">App\\Services\\SongStorages\\DropboxStorage::testSetup<\/a>"],[100,1,"<a href=\"SongStorages\/DropboxStorage.php.html#96\">App\\Services\\SongStorages\\DropboxStorage::getStorageType<\/a>"],[100,1,"<a href=\"SongStorages\/LocalStorage.php.html#22\">App\\Services\\SongStorages\\LocalStorage::__construct<\/a>"],[82.35294117647058,3,"<a href=\"SongStorages\/LocalStorage.php.html#26\">App\\Services\\SongStorages\\LocalStorage::storeUploadedFile<\/a>"],[100,1,"<a href=\"SongStorages\/LocalStorage.php.html#55\">App\\Services\\SongStorages\\LocalStorage::getUploadDirectory<\/a>"],[100,2,"<a href=\"SongStorages\/LocalStorage.php.html#76\">App\\Services\\SongStorages\\LocalStorage::getTargetFileName<\/a>"],[100,1,"<a href=\"SongStorages\/LocalStorage.php.html#88\">App\\Services\\SongStorages\\LocalStorage::getUniqueHash<\/a>"],[75,2,"<a href=\"SongStorages\/LocalStorage.php.html#93\">App\\Services\\SongStorages\\LocalStorage::delete<\/a>"],[0,3,"<a href=\"SongStorages\/LocalStorage.php.html#104\">App\\Services\\SongStorages\\LocalStorage::testSetup<\/a>"],[100,1,"<a href=\"SongStorages\/LocalStorage.php.html#115\">App\\Services\\SongStorages\\LocalStorage::getStorageType<\/a>"],[100,1,"<a href=\"SongStorages\/S3CompatibleStorage.php.html#19\">App\\Services\\SongStorages\\S3CompatibleStorage::__construct<\/a>"],[30.76923076923077,1,"<a href=\"SongStorages\/S3CompatibleStorage.php.html#24\">App\\Services\\SongStorages\\S3CompatibleStorage::storeUploadedFile<\/a>"],[50,1,"<a href=\"SongStorages\/S3CompatibleStorage.php.html#46\">App\\Services\\SongStorages\\S3CompatibleStorage::getSongPresignedUrl<\/a>"],[0,1,"<a href=\"SongStorages\/S3CompatibleStorage.php.html#53\">App\\Services\\SongStorages\\S3CompatibleStorage::delete<\/a>"],[0,1,"<a href=\"SongStorages\/S3CompatibleStorage.php.html#59\">App\\Services\\SongStorages\\S3CompatibleStorage::testSetup<\/a>"],[100,1,"<a href=\"SongStorages\/S3CompatibleStorage.php.html#65\">App\\Services\\SongStorages\\S3CompatibleStorage::getStorageType<\/a>"],[100,1,"<a href=\"SongStorages\/S3LambdaStorage.php.html#23\">App\\Services\\SongStorages\\S3LambdaStorage::__construct<\/a>"],[0,1,"<a href=\"SongStorages\/S3LambdaStorage.php.html#30\">App\\Services\\SongStorages\\S3LambdaStorage::storeUploadedFile<\/a>"],[90.47619047619048,4,"<a href=\"SongStorages\/S3LambdaStorage.php.html#37\">App\\Services\\SongStorages\\S3LambdaStorage::createSongEntry<\/a>"],[100,1,"<a href=\"SongStorages\/S3LambdaStorage.php.html#77\">App\\Services\\SongStorages\\S3LambdaStorage::deleteSongEntry<\/a>"],[0,1,"<a href=\"SongStorages\/S3LambdaStorage.php.html#87\">App\\Services\\SongStorages\\S3LambdaStorage::delete<\/a>"],[0,1,"<a href=\"SongStorages\/S3LambdaStorage.php.html#92\">App\\Services\\SongStorages\\S3LambdaStorage::getStorageType<\/a>"],[100,1,"<a href=\"SongStorages\/SftpStorage.php.html#23\">App\\Services\\SongStorages\\SftpStorage::__construct<\/a>"],[30.76923076923077,1,"<a href=\"SongStorages\/SftpStorage.php.html#27\">App\\Services\\SongStorages\\SftpStorage::storeUploadedFile<\/a>"],[0,1,"<a href=\"SongStorages\/SftpStorage.php.html#50\">App\\Services\\SongStorages\\SftpStorage::delete<\/a>"],[100,1,"<a href=\"SongStorages\/SftpStorage.php.html#56\">App\\Services\\SongStorages\\SftpStorage::getSongContent<\/a>"],[100,1,"<a href=\"SongStorages\/SftpStorage.php.html#63\">App\\Services\\SongStorages\\SftpStorage::copyToLocal<\/a>"],[0,1,"<a href=\"SongStorages\/SftpStorage.php.html#77\">App\\Services\\SongStorages\\SftpStorage::testSetup<\/a>"],[0,1,"<a href=\"SongStorages\/SftpStorage.php.html#83\">App\\Services\\SongStorages\\SftpStorage::generateRemotePath<\/a>"],[100,1,"<a href=\"SongStorages\/SftpStorage.php.html#88\">App\\Services\\SongStorages\\SftpStorage::getStorageType<\/a>"],[100,0,"<a href=\"SongStorages\/SongStorage.php.html#13\">App\\Services\\SongStorages\\SongStorage::getStorageType<\/a>"],[100,0,"<a href=\"SongStorages\/SongStorage.php.html#15\">App\\Services\\SongStorages\\SongStorage::storeUploadedFile<\/a>"],[100,0,"<a href=\"SongStorages\/SongStorage.php.html#17\">App\\Services\\SongStorages\\SongStorage::delete<\/a>"],[100,0,"<a href=\"SongStorages\/SongStorage.php.html#19\">App\\Services\\SongStorages\\SongStorage::testSetup<\/a>"],[100,1,"<a href=\"SongStorages\/SongStorage.php.html#21\">App\\Services\\SongStorages\\SongStorage::assertSupported<\/a>"],[100,1,"<a href=\"SpotifyService.php.html#12\">App\\Services\\SpotifyService::__construct<\/a>"],[100,2,"<a href=\"SpotifyService.php.html#16\">App\\Services\\SpotifyService::enabled<\/a>"],[87.5,4,"<a href=\"SpotifyService.php.html#21\">App\\Services\\SpotifyService::tryGetArtistImage<\/a>"],[87.5,5,"<a href=\"SpotifyService.php.html#37\">App\\Services\\SpotifyService::tryGetAlbumCover<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/DropboxStreamerAdapter.php.html#12\">App\\Services\\Streamer\\Adapters\\DropboxStreamerAdapter::__construct<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/DropboxStreamerAdapter.php.html#16\">App\\Services\\Streamer\\Adapters\\DropboxStreamerAdapter::stream<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/PhpStreamerAdapter.php.html#12\">App\\Services\\Streamer\\Adapters\\PhpStreamerAdapter::stream<\/a>"],[100,1,"<a href=\"Streamer\/Adapters\/PodcastStreamerAdapter.php.html#16\">App\\Services\\Streamer\\Adapters\\PodcastStreamerAdapter::__construct<\/a>"],[0,2,"<a href=\"Streamer\/Adapters\/PodcastStreamerAdapter.php.html#20\">App\\Services\\Streamer\\Adapters\\PodcastStreamerAdapter::stream<\/a>"],[100,1,"<a href=\"Streamer\/Adapters\/S3CompatibleStreamerAdapter.php.html#12\">App\\Services\\Streamer\\Adapters\\S3CompatibleStreamerAdapter::__construct<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/S3CompatibleStreamerAdapter.php.html#16\">App\\Services\\Streamer\\Adapters\\S3CompatibleStreamerAdapter::stream<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/SftpStreamerAdapter.php.html#13\">App\\Services\\Streamer\\Adapters\\SftpStreamerAdapter::__construct<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/SftpStreamerAdapter.php.html#17\">App\\Services\\Streamer\\Adapters\\SftpStreamerAdapter::stream<\/a>"],[0,2,"<a href=\"Streamer\/Adapters\/TranscodingStreamerAdapter.php.html#14\">App\\Services\\Streamer\\Adapters\\TranscodingStreamerAdapter::stream<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/XAccelRedirectStreamerAdapter.php.html#14\">App\\Services\\Streamer\\Adapters\\XAccelRedirectStreamerAdapter::stream<\/a>"],[0,1,"<a href=\"Streamer\/Adapters\/XSendFileStreamerAdapter.php.html#12\">App\\Services\\Streamer\\Adapters\\XSendFileStreamerAdapter::stream<\/a>"],[100,1,"<a href=\"Streamer\/Streamer.php.html#21\">App\\Services\\Streamer\\Streamer::__construct<\/a>"],[100,3,"<a href=\"Streamer\/Streamer.php.html#32\">App\\Services\\Streamer\\Streamer::resolveAdapter<\/a>"],[100,1,"<a href=\"Streamer\/Streamer.php.html#52\">App\\Services\\Streamer\\Streamer::stream<\/a>"],[100,5,"<a href=\"Streamer\/Streamer.php.html#57\">App\\Services\\Streamer\\Streamer::shouldTranscode<\/a>"],[100,1,"<a href=\"Streamer\/Streamer.php.html#73\">App\\Services\\Streamer\\Streamer::getAdapter<\/a>"],[100,1,"<a href=\"TokenManager.php.html#13\">App\\Services\\TokenManager::createToken<\/a>"],[100,1,"<a href=\"TokenManager.php.html#18\">App\\Services\\TokenManager::createCompositeToken<\/a>"],[100,2,"<a href=\"TokenManager.php.html#30\">App\\Services\\TokenManager::deleteCompositionToken<\/a>"],[100,1,"<a href=\"TokenManager.php.html#43\">App\\Services\\TokenManager::destroyTokens<\/a>"],[100,1,"<a href=\"TokenManager.php.html#48\">App\\Services\\TokenManager::deleteTokenByPlainTextToken<\/a>"],[100,1,"<a href=\"TokenManager.php.html#53\">App\\Services\\TokenManager::getUserFromPlainTextToken<\/a>"],[100,1,"<a href=\"TokenManager.php.html#58\">App\\Services\\TokenManager::refreshApiToken<\/a>"],[100,1,"<a href=\"UserInvitationService.php.html#17\">App\\Services\\UserInvitationService::__construct<\/a>"],[100,1,"<a href=\"UserInvitationService.php.html#22\">App\\Services\\UserInvitationService::invite<\/a>"],[100,1,"<a href=\"UserInvitationService.php.html#29\">App\\Services\\UserInvitationService::getUserProspectByToken<\/a>"],[100,1,"<a href=\"UserInvitationService.php.html#36\">App\\Services\\UserInvitationService::revokeByEmail<\/a>"],[100,1,"<a href=\"UserInvitationService.php.html#43\">App\\Services\\UserInvitationService::inviteOne<\/a>"],[100,1,"<a href=\"UserInvitationService.php.html#60\">App\\Services\\UserInvitationService::accept<\/a>"],[100,1,"<a href=\"UserService.php.html#16\">App\\Services\\UserService::__construct<\/a>"],[100,4,"<a href=\"UserService.php.html#20\">App\\Services\\UserService::createUser<\/a>"],[100,3,"<a href=\"UserService.php.html#45\">App\\Services\\UserService::createOrUpdateUserFromSSO<\/a>"],[100,5,"<a href=\"UserService.php.html#72\">App\\Services\\UserService::updateUser<\/a>"],[100,2,"<a href=\"UserService.php.html#105\">App\\Services\\UserService::createNewAvatar<\/a>"],[100,1,"<a href=\"UserService.php.html#119\">App\\Services\\UserService::deleteUser<\/a>"],[0,1,"<a href=\"UserService.php.html#124\">App\\Services\\UserService::savePreference<\/a>"],[100,1,"<a href=\"UserService.php.html#131\">App\\Services\\UserService::generateUserAvatarPath<\/a>"],[100,6,"<a href=\"Util.php.html#7\">App\\Services\\Util::__construct<\/a>"],[83.33333333333334,4,"<a href=\"Util.php.html#16\">App\\Services\\Util::detectUTFEncoding<\/a>"],[100,1,"<a href=\"YouTubeService.php.html#13\">App\\Services\\YouTubeService::__construct<\/a>"],[100,1,"<a href=\"YouTubeService.php.html#17\">App\\Services\\YouTubeService::enabled<\/a>"],[72.72727272727273,3,"<a href=\"YouTubeService.php.html#22\">App\\Services\\YouTubeService::searchVideosRelatedToSong<\/a>"],[0,2,"<a href=\"SongStorages\/Concerns\/DeletesUsingFilesystem.php.html#11\">App\\Services\\SongStorages\\Concerns\\DeletesUsingFilesystem::deleteUsingFileSystem<\/a>"],[100,1,"<a href=\"SongStorages\/Concerns\/ScansUploadedFile.php.html#15\">App\\Services\\SongStorages\\Concerns\\ScansUploadedFile::scanUploadedFile<\/a>"],[0,7,"<a href=\"Streamer\/Adapters\/Concerns\/StreamsLocalPath.php.html#19\">App\\Services\\Streamer\\Adapters\\Concerns\\StreamsLocalPath::streamLocalPath<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

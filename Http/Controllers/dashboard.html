@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\GitHub\koel\app\Http\Controllers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=10.1.14" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=10.1.14" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=10.1.14" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">D:\GitHub\koel\app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Http</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Controllers</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="API/ActivateLicenseController.php.html#10">App\Http\Controllers\API\ActivateLicenseController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/FetchDemoCreditsController.php.html#9">App\Http\Controllers\API\FetchDemoCreditsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/GetOneTimeTokenController.php.html#10">App\Http\Controllers\API\GetOneTimeTokenController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/MovePlaylistSongsController.php.html#10">App\Http\Controllers\API\MovePlaylistSongsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/PlaylistCollaboration/PlaylistCollaboratorController.php.html#15">App\Http\Controllers\API\PlaylistCollaboration\PlaylistCollaboratorController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/FetchEpisodeController.php.html#9">App\Http\Controllers\API\Podcast\FetchEpisodeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastController.php.html#18">App\Http\Controllers\API\Podcast\PodcastController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastEpisodeController.php.html#11">App\Http\Controllers\API\Podcast\PodcastEpisodeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/UnsubscribeFromPodcastController.php.html#12">App\Http\Controllers\API\Podcast\UnsubscribeFromPodcastController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/UpdateUserPreferenceController.php.html#11">App\Http\Controllers\API\UpdateUserPreferenceController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorizeDropboxController.php.html#12">App\Http\Controllers\AuthorizeDropboxController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ViewSongOnITunesController.php.html#11">App\Http\Controllers\ViewSongOnITunesController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#18">App\Http\Controllers\API\UserInvitationController</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="API/UploadController.php.html#18">App\Http\Controllers\API\UploadController</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="API/UserController.php.html#15">App\Http\Controllers\API\UserController</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="API/UpdatePlaybackStatusController.php.html#13">App\Http\Controllers\API\UpdatePlaybackStatusController</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Download/DownloadSongsController.php.html#13">App\Http\Controllers\Download\DownloadSongsController</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Download/DownloadPlaylistController.php.html#13">App\Http\Controllers\Download\DownloadPlaylistController</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="API/PlaylistController.php.html#21">App\Http\Controllers\API\PlaylistController</a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="API/LambdaSongController.php.html#13">App\Http\Controllers\API\LambdaSongController</a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="API/PlaylistCollaboration/PlaylistCollaboratorController.php.html#15">App\Http\Controllers\API\PlaylistCollaboration\PlaylistCollaboratorController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="API/Podcast/PodcastController.php.html#18">App\Http\Controllers\API\Podcast\PodcastController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="API/PlaylistController.php.html#21">App\Http\Controllers\API\PlaylistController</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="API/Podcast/PodcastEpisodeController.php.html#11">App\Http\Controllers\API\Podcast\PodcastEpisodeController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#18">App\Http\Controllers\API\UserInvitationController</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="API/UserController.php.html#15">App\Http\Controllers\API\UserController</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="API/FetchDemoCreditsController.php.html#9">App\Http\Controllers\API\FetchDemoCreditsController</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthorizeDropboxController.php.html#12">App\Http\Controllers\AuthorizeDropboxController</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="API/LambdaSongController.php.html#13">App\Http\Controllers\API\LambdaSongController</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="API/UploadController.php.html#18">App\Http\Controllers\API\UploadController</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Download/DownloadSongsController.php.html#13">App\Http\Controllers\Download\DownloadSongsController</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="API/UpdatePlaybackStatusController.php.html#13">App\Http\Controllers\API\UpdatePlaybackStatusController</a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Download/DownloadPlaylistController.php.html#13">App\Http\Controllers\Download\DownloadPlaylistController</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="API/ActivateLicenseController.php.html#12"><abbr title="App\Http\Controllers\API\ActivateLicenseController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/FetchDemoCreditsController.php.html#11"><abbr title="App\Http\Controllers\API\FetchDemoCreditsController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/GetOneTimeTokenController.php.html#13"><abbr title="App\Http\Controllers\API\GetOneTimeTokenController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/MovePlaylistSongsController.php.html#12"><abbr title="App\Http\Controllers\API\MovePlaylistSongsController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/PlaylistCollaboration/PlaylistCollaboratorController.php.html#17"><abbr title="App\Http\Controllers\API\PlaylistCollaboration\PlaylistCollaboratorController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/PlaylistCollaboration/PlaylistCollaboratorController.php.html#23"><abbr title="App\Http\Controllers\API\PlaylistCollaboration\PlaylistCollaboratorController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/PlaylistCollaboration/PlaylistCollaboratorController.php.html#30"><abbr title="App\Http\Controllers\API\PlaylistCollaboration\PlaylistCollaboratorController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/FetchEpisodeController.php.html#11"><abbr title="App\Http\Controllers\API\Podcast\FetchEpisodeController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastController.php.html#21"><abbr title="App\Http\Controllers\API\Podcast\PodcastController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastController.php.html#28"><abbr title="App\Http\Controllers\API\Podcast\PodcastController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastController.php.html#33"><abbr title="App\Http\Controllers\API\Podcast\PodcastController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastController.php.html#43"><abbr title="App\Http\Controllers\API\Podcast\PodcastController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastEpisodeController.php.html#13"><abbr title="App\Http\Controllers\API\Podcast\PodcastEpisodeController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/PodcastEpisodeController.php.html#19"><abbr title="App\Http\Controllers\API\Podcast\PodcastEpisodeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/Podcast/UnsubscribeFromPodcastController.php.html#15"><abbr title="App\Http\Controllers\API\Podcast\UnsubscribeFromPodcastController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/ProfileController.php.html#29"><abbr title="App\Http\Controllers\API\ProfileController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/UpdateUserPreferenceController.php.html#14"><abbr title="App\Http\Controllers\API\UpdateUserPreferenceController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/UserController.php.html#23"><abbr title="App\Http\Controllers\API\UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorizeDropboxController.php.html#14"><abbr title="App\Http\Controllers\AuthorizeDropboxController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ViewSongOnITunesController.php.html#13"><abbr title="App\Http\Controllers\ViewSongOnITunesController::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#41"><abbr title="App\Http\Controllers\API\UserInvitationController::get">get</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="API/LambdaSongController.php.html#39"><abbr title="App\Http\Controllers\API\LambdaSongController::remove">remove</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#50"><abbr title="App\Http\Controllers\API\UserInvitationController::accept">accept</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#61"><abbr title="App\Http\Controllers\API\UserInvitationController::revoke">revoke</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="API/AuthController.php.html#43"><abbr title="App\Http\Controllers\API\AuthController::throttleLoginRequest">throttleLoginRequest</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="API/UploadController.php.html#21"><abbr title="App\Http\Controllers\API\UploadController::__invoke">__invoke</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="API/UserController.php.html#42"><abbr title="App\Http\Controllers\API\UserController::update">update</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="API/UpdatePlaybackStatusController.php.html#16"><abbr title="App\Http\Controllers\API\UpdatePlaybackStatusController::__invoke">__invoke</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="API/PlaylistController.php.html#62"><abbr title="App\Http\Controllers\API\PlaylistController::update">update</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Download/DownloadSongsController.php.html#15"><abbr title="App\Http\Controllers\Download\DownloadSongsController::__invoke">__invoke</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="API/PlaylistController.php.html#37"><abbr title="App\Http\Controllers\API\PlaylistController::store">store</abbr></a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Download/DownloadPlaylistController.php.html#16"><abbr title="App\Http\Controllers\Download\DownloadPlaylistController::__invoke">__invoke</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="API/PlaylistCollaboration/PlaylistCollaboratorController.php.html#30"><abbr title="App\Http\Controllers\API\PlaylistCollaboration\PlaylistCollaboratorController::destroy">destroy</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="API/PlaylistController.php.html#37"><abbr title="App\Http\Controllers\API\PlaylistController::store">store</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="API/FetchDemoCreditsController.php.html#11"><abbr title="App\Http\Controllers\API\FetchDemoCreditsController::__invoke">__invoke</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="API/Podcast/PodcastController.php.html#33"><abbr title="App\Http\Controllers\API\Podcast\PodcastController::store">store</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="API/Podcast/PodcastEpisodeController.php.html#19"><abbr title="App\Http\Controllers\API\Podcast\PodcastEpisodeController::index">index</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthorizeDropboxController.php.html#14"><abbr title="App\Http\Controllers\AuthorizeDropboxController::__invoke">__invoke</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="API/PlaylistController.php.html#62"><abbr title="App\Http\Controllers\API\PlaylistController::update">update</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="API/AuthController.php.html#43"><abbr title="App\Http\Controllers\API\AuthController::throttleLoginRequest">throttleLoginRequest</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#41"><abbr title="App\Http\Controllers\API\UserInvitationController::get">get</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="API/UploadController.php.html#21"><abbr title="App\Http\Controllers\API\UploadController::__invoke">__invoke</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="API/UserController.php.html#42"><abbr title="App\Http\Controllers\API\UserController::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Download/DownloadSongsController.php.html#15"><abbr title="App\Http\Controllers\Download\DownloadSongsController::__invoke">__invoke</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="API/LambdaSongController.php.html#39"><abbr title="App\Http\Controllers\API\LambdaSongController::remove">remove</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#50"><abbr title="App\Http\Controllers\API\UserInvitationController::accept">accept</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="API/UserInvitationController.php.html#61"><abbr title="App\Http\Controllers\API\UserInvitationController::revoke">revoke</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="API/UpdatePlaybackStatusController.php.html#16"><abbr title="App\Http\Controllers\API\UpdatePlaybackStatusController::__invoke">__invoke</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Download/DownloadPlaylistController.php.html#16"><abbr title="App\Http\Controllers\Download\DownloadPlaylistController::__invoke">__invoke</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.14</a> using <a href="https://www.php.net/" target="_top">PHP 8.1.31</a> and <a href="https://phpunit.de/">PHPUnit 10.5.19</a> at Sat Feb 22 22:38:05 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=10.1.14" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=10.1.14" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=10.1.14" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,0,1,7,3,48], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([20,0,0,0,1,0,2,1,1,7,1,94], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"API\/ActivateLicenseController.php.html#10\">App\\Http\\Controllers\\API\\ActivateLicenseController<\/a>"],[100,3,"<a href=\"API\/AlbumController.php.html#10\">App\\Http\\Controllers\\API\\AlbumController<\/a>"],[100,2,"<a href=\"API\/AlbumSongController.php.html#12\">App\\Http\\Controllers\\API\\AlbumSongController<\/a>"],[100,2,"<a href=\"API\/ArtistAlbumController.php.html#10\">App\\Http\\Controllers\\API\\ArtistAlbumController<\/a>"],[100,3,"<a href=\"API\/ArtistController.php.html#10\">App\\Http\\Controllers\\API\\ArtistController<\/a>"],[100,2,"<a href=\"API\/ArtistSongController.php.html#12\">App\\Http\\Controllers\\API\\ArtistSongController<\/a>"],[90.47619047619048,8,"<a href=\"API\/AuthController.php.html#15\">App\\Http\\Controllers\\API\\AuthController<\/a>"],[100,1,"<a href=\"API\/DisconnectFromLastfmController.php.html#10\">App\\Http\\Controllers\\API\\DisconnectFromLastfmController<\/a>"],[100,1,"<a href=\"API\/ExcerptSearchController.php.html#10\">App\\Http\\Controllers\\API\\ExcerptSearchController<\/a>"],[100,1,"<a href=\"API\/FetchAlbumInformationController.php.html#9\">App\\Http\\Controllers\\API\\FetchAlbumInformationController<\/a>"],[100,1,"<a href=\"API\/FetchAlbumThumbnailController.php.html#9\">App\\Http\\Controllers\\API\\FetchAlbumThumbnailController<\/a>"],[100,1,"<a href=\"API\/FetchArtistInformationController.php.html#9\">App\\Http\\Controllers\\API\\FetchArtistInformationController<\/a>"],[0,2,"<a href=\"API\/FetchDemoCreditsController.php.html#9\">App\\Http\\Controllers\\API\\FetchDemoCreditsController<\/a>"],[100,1,"<a href=\"API\/FetchFavoriteSongsController.php.html#11\">App\\Http\\Controllers\\API\\FetchFavoriteSongsController<\/a>"],[96.875,4,"<a href=\"API\/FetchInitialDataController.php.html#23\">App\\Http\\Controllers\\API\\FetchInitialDataController<\/a>"],[100,1,"<a href=\"API\/FetchOverviewController.php.html#13\">App\\Http\\Controllers\\API\\FetchOverviewController<\/a>"],[100,1,"<a href=\"API\/FetchRandomSongsInGenreController.php.html#12\">App\\Http\\Controllers\\API\\FetchRandomSongsInGenreController<\/a>"],[100,1,"<a href=\"API\/FetchRecentlyPlayedSongController.php.html#11\">App\\Http\\Controllers\\API\\FetchRecentlyPlayedSongController<\/a>"],[100,2,"<a href=\"API\/FetchSongsForQueueController.php.html#12\">App\\Http\\Controllers\\API\\FetchSongsForQueueController<\/a>"],[100,2,"<a href=\"API\/ForgotPasswordController.php.html#11\">App\\Http\\Controllers\\API\\ForgotPasswordController<\/a>"],[100,3,"<a href=\"API\/GenreController.php.html#10\">App\\Http\\Controllers\\API\\GenreController<\/a>"],[100,4,"<a href=\"API\/GenreSongController.php.html#13\">App\\Http\\Controllers\\API\\GenreSongController<\/a>"],[0,1,"<a href=\"API\/GetOneTimeTokenController.php.html#10\">App\\Http\\Controllers\\API\\GetOneTimeTokenController<\/a>"],[89.47368421052632,4,"<a href=\"API\/LambdaSongController.php.html#13\">App\\Http\\Controllers\\API\\LambdaSongController<\/a>"],[100,1,"<a href=\"API\/LikeMultipleSongsController.php.html#13\">App\\Http\\Controllers\\API\\LikeMultipleSongsController<\/a>"],[0,1,"<a href=\"API\/MovePlaylistSongsController.php.html#10\">App\\Http\\Controllers\\API\\MovePlaylistSongsController<\/a>"],[100,1,"<a href=\"API\/PlaylistCollaboration\/AcceptPlaylistCollaborationInviteController.php.html#11\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\AcceptPlaylistCollaborationInviteController<\/a>"],[100,1,"<a href=\"API\/PlaylistCollaboration\/CreatePlaylistCollaborationTokenController.php.html#11\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\CreatePlaylistCollaborationTokenController<\/a>"],[0,6,"<a href=\"API\/PlaylistCollaboration\/PlaylistCollaboratorController.php.html#15\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\PlaylistCollaboratorController<\/a>"],[88.23529411764706,14,"<a href=\"API\/PlaylistController.php.html#21\">App\\Http\\Controllers\\API\\PlaylistController<\/a>"],[100,3,"<a href=\"API\/PlaylistCoverController.php.html#10\">App\\Http\\Controllers\\API\\PlaylistCoverController<\/a>"],[100,5,"<a href=\"API\/PlaylistFolderController.php.html#14\">App\\Http\\Controllers\\API\\PlaylistFolderController<\/a>"],[100,3,"<a href=\"API\/PlaylistFolderPlaylistController.php.html#12\">App\\Http\\Controllers\\API\\PlaylistFolderPlaylistController<\/a>"],[100,7,"<a href=\"API\/PlaylistSongController.php.html#21\">App\\Http\\Controllers\\API\\PlaylistSongController<\/a>"],[0,1,"<a href=\"API\/Podcast\/FetchEpisodeController.php.html#9\">App\\Http\\Controllers\\API\\Podcast\\FetchEpisodeController<\/a>"],[0,5,"<a href=\"API\/Podcast\/PodcastController.php.html#18\">App\\Http\\Controllers\\API\\Podcast\\PodcastController<\/a>"],[0,3,"<a href=\"API\/Podcast\/PodcastEpisodeController.php.html#11\">App\\Http\\Controllers\\API\\Podcast\\PodcastEpisodeController<\/a>"],[0,1,"<a href=\"API\/Podcast\/UnsubscribeFromPodcastController.php.html#12\">App\\Http\\Controllers\\API\\Podcast\\UnsubscribeFromPodcastController<\/a>"],[100,1,"<a href=\"API\/PrivatizeSongsController.php.html#13\">App\\Http\\Controllers\\API\\PrivatizeSongsController<\/a>"],[95,7,"<a href=\"API\/ProfileController.php.html#18\">App\\Http\\Controllers\\API\\ProfileController<\/a>"],[100,1,"<a href=\"API\/PublicizeSongsController.php.html#13\">App\\Http\\Controllers\\API\\PublicizeSongsController<\/a>"],[100,3,"<a href=\"API\/QueueStateController.php.html#12\">App\\Http\\Controllers\\API\\QueueStateController<\/a>"],[100,1,"<a href=\"API\/RegisterPlayController.php.html#14\">App\\Http\\Controllers\\API\\RegisterPlayController<\/a>"],[100,2,"<a href=\"API\/ResetPasswordController.php.html#11\">App\\Http\\Controllers\\API\\ResetPasswordController<\/a>"],[100,3,"<a href=\"API\/ScrobbleController.php.html#12\">App\\Http\\Controllers\\API\\ScrobbleController<\/a>"],[100,1,"<a href=\"API\/SearchYouTubeController.php.html#10\">App\\Http\\Controllers\\API\\SearchYouTubeController<\/a>"],[100,1,"<a href=\"API\/SetLastfmSessionKeyController.php.html#11\">App\\Http\\Controllers\\API\\SetLastfmSessionKeyController<\/a>"],[100,2,"<a href=\"API\/SettingController.php.html#13\">App\\Http\\Controllers\\API\\SettingController<\/a>"],[100,7,"<a href=\"API\/SongController.php.html#22\">App\\Http\\Controllers\\API\\SongController<\/a>"],[100,1,"<a href=\"API\/SongSearchController.php.html#12\">App\\Http\\Controllers\\API\\SongSearchController<\/a>"],[100,1,"<a href=\"API\/ToggleLikeSongController.php.html#13\">App\\Http\\Controllers\\API\\ToggleLikeSongController<\/a>"],[100,1,"<a href=\"API\/UnlikeMultipleSongsController.php.html#12\">App\\Http\\Controllers\\API\\UnlikeMultipleSongsController<\/a>"],[83.33333333333334,2,"<a href=\"API\/UpdatePlaybackStatusController.php.html#13\">App\\Http\\Controllers\\API\\UpdatePlaybackStatusController<\/a>"],[0,1,"<a href=\"API\/UpdateUserPreferenceController.php.html#11\">App\\Http\\Controllers\\API\\UpdateUserPreferenceController<\/a>"],[100,1,"<a href=\"API\/UploadAlbumCoverController.php.html#11\">App\\Http\\Controllers\\API\\UploadAlbumCoverController<\/a>"],[100,1,"<a href=\"API\/UploadArtistImageController.php.html#11\">App\\Http\\Controllers\\API\\UploadArtistImageController<\/a>"],[80,3,"<a href=\"API\/UploadController.php.html#18\">App\\Http\\Controllers\\API\\UploadController<\/a>"],[82.6086956521739,8,"<a href=\"API\/UserController.php.html#15\">App\\Http\\Controllers\\API\\UserController<\/a>"],[70,9,"<a href=\"API\/UserInvitationController.php.html#18\">App\\Http\\Controllers\\API\\UserInvitationController<\/a>"],[0,2,"<a href=\"AuthorizeDropboxController.php.html#12\">App\\Http\\Controllers\\AuthorizeDropboxController<\/a>"],[100,0,"<a href=\"Controller.php.html#10\">App\\Http\\Controllers\\Controller<\/a>"],[100,1,"<a href=\"Download\/DownloadAlbumController.php.html#12\">App\\Http\\Controllers\\Download\\DownloadAlbumController<\/a>"],[100,1,"<a href=\"Download\/DownloadArtistController.php.html#12\">App\\Http\\Controllers\\Download\\DownloadArtistController<\/a>"],[100,1,"<a href=\"Download\/DownloadFavoritesController.php.html#11\">App\\Http\\Controllers\\Download\\DownloadFavoritesController<\/a>"],[87.5,2,"<a href=\"Download\/DownloadPlaylistController.php.html#13\">App\\Http\\Controllers\\Download\\DownloadPlaylistController<\/a>"],[85.71428571428571,3,"<a href=\"Download\/DownloadSongsController.php.html#13\">App\\Http\\Controllers\\Download\\DownloadSongsController<\/a>"],[100,3,"<a href=\"IndexController.php.html#10\">App\\Http\\Controllers\\IndexController<\/a>"],[100,3,"<a href=\"LastfmController.php.html#12\">App\\Http\\Controllers\\LastfmController<\/a>"],[100,1,"<a href=\"PlayController.php.html#11\">App\\Http\\Controllers\\PlayController<\/a>"],[100,1,"<a href=\"SSO\/GoogleCallbackController.php.html#12\">App\\Http\\Controllers\\SSO\\GoogleCallbackController<\/a>"],[0,1,"<a href=\"ViewSongOnITunesController.php.html#11\">App\\Http\\Controllers\\ViewSongOnITunesController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"API\/ActivateLicenseController.php.html#12\">App\\Http\\Controllers\\API\\ActivateLicenseController::__invoke<\/a>"],[100,1,"<a href=\"API\/AlbumController.php.html#12\">App\\Http\\Controllers\\API\\AlbumController::__construct<\/a>"],[100,1,"<a href=\"API\/AlbumController.php.html#16\">App\\Http\\Controllers\\API\\AlbumController::index<\/a>"],[100,1,"<a href=\"API\/AlbumController.php.html#21\">App\\Http\\Controllers\\API\\AlbumController::show<\/a>"],[100,1,"<a href=\"API\/AlbumSongController.php.html#15\">App\\Http\\Controllers\\API\\AlbumSongController::__construct<\/a>"],[100,1,"<a href=\"API\/AlbumSongController.php.html#21\">App\\Http\\Controllers\\API\\AlbumSongController::index<\/a>"],[100,1,"<a href=\"API\/ArtistAlbumController.php.html#12\">App\\Http\\Controllers\\API\\ArtistAlbumController::__construct<\/a>"],[100,1,"<a href=\"API\/ArtistAlbumController.php.html#16\">App\\Http\\Controllers\\API\\ArtistAlbumController::index<\/a>"],[100,1,"<a href=\"API\/ArtistController.php.html#12\">App\\Http\\Controllers\\API\\ArtistController::__construct<\/a>"],[100,1,"<a href=\"API\/ArtistController.php.html#16\">App\\Http\\Controllers\\API\\ArtistController::index<\/a>"],[100,1,"<a href=\"API\/ArtistController.php.html#21\">App\\Http\\Controllers\\API\\ArtistController::show<\/a>"],[100,1,"<a href=\"API\/ArtistSongController.php.html#15\">App\\Http\\Controllers\\API\\ArtistSongController::__construct<\/a>"],[100,1,"<a href=\"API\/ArtistSongController.php.html#21\">App\\Http\\Controllers\\API\\ArtistSongController::index<\/a>"],[100,1,"<a href=\"API\/AuthController.php.html#19\">App\\Http\\Controllers\\API\\AuthController::__construct<\/a>"],[100,1,"<a href=\"API\/AuthController.php.html#23\">App\\Http\\Controllers\\API\\AuthController::login<\/a>"],[100,1,"<a href=\"API\/AuthController.php.html#33\">App\\Http\\Controllers\\API\\AuthController::loginUsingOneTimeToken<\/a>"],[71.42857142857143,3,"<a href=\"API\/AuthController.php.html#43\">App\\Http\\Controllers\\API\\AuthController::throttleLoginRequest<\/a>"],[100,1,"<a href=\"API\/AuthController.php.html#58\">App\\Http\\Controllers\\API\\AuthController::logout<\/a>"],[100,1,"<a href=\"API\/AuthController.php.html#68\">App\\Http\\Controllers\\API\\AuthController::username<\/a>"],[100,1,"<a href=\"API\/DisconnectFromLastfmController.php.html#13\">App\\Http\\Controllers\\API\\DisconnectFromLastfmController::__invoke<\/a>"],[100,1,"<a href=\"API\/ExcerptSearchController.php.html#12\">App\\Http\\Controllers\\API\\ExcerptSearchController::__invoke<\/a>"],[100,1,"<a href=\"API\/FetchAlbumInformationController.php.html#11\">App\\Http\\Controllers\\API\\FetchAlbumInformationController::__invoke<\/a>"],[100,1,"<a href=\"API\/FetchAlbumThumbnailController.php.html#11\">App\\Http\\Controllers\\API\\FetchAlbumThumbnailController::__invoke<\/a>"],[100,1,"<a href=\"API\/FetchArtistInformationController.php.html#11\">App\\Http\\Controllers\\API\\FetchArtistInformationController::__invoke<\/a>"],[0,2,"<a href=\"API\/FetchDemoCreditsController.php.html#11\">App\\Http\\Controllers\\API\\FetchDemoCreditsController::__invoke<\/a>"],[100,1,"<a href=\"API\/FetchFavoriteSongsController.php.html#14\">App\\Http\\Controllers\\API\\FetchFavoriteSongsController::__invoke<\/a>"],[96.875,4,"<a href=\"API\/FetchInitialDataController.php.html#26\">App\\Http\\Controllers\\API\\FetchInitialDataController::__invoke<\/a>"],[100,1,"<a href=\"API\/FetchOverviewController.php.html#15\">App\\Http\\Controllers\\API\\FetchOverviewController::__invoke<\/a>"],[100,1,"<a href=\"API\/FetchRandomSongsInGenreController.php.html#15\">App\\Http\\Controllers\\API\\FetchRandomSongsInGenreController::__invoke<\/a>"],[100,1,"<a href=\"API\/FetchRecentlyPlayedSongController.php.html#16\">App\\Http\\Controllers\\API\\FetchRecentlyPlayedSongController::__invoke<\/a>"],[100,2,"<a href=\"API\/FetchSongsForQueueController.php.html#15\">App\\Http\\Controllers\\API\\FetchSongsForQueueController::__invoke<\/a>"],[100,2,"<a href=\"API\/ForgotPasswordController.php.html#14\">App\\Http\\Controllers\\API\\ForgotPasswordController::__invoke<\/a>"],[100,1,"<a href=\"API\/GenreController.php.html#12\">App\\Http\\Controllers\\API\\GenreController::__construct<\/a>"],[100,1,"<a href=\"API\/GenreController.php.html#16\">App\\Http\\Controllers\\API\\GenreController::index<\/a>"],[100,1,"<a href=\"API\/GenreController.php.html#21\">App\\Http\\Controllers\\API\\GenreController::show<\/a>"],[100,4,"<a href=\"API\/GenreSongController.php.html#18\">App\\Http\\Controllers\\API\\GenreSongController::__invoke<\/a>"],[0,1,"<a href=\"API\/GetOneTimeTokenController.php.html#13\">App\\Http\\Controllers\\API\\GetOneTimeTokenController::__invoke<\/a>"],[100,1,"<a href=\"API\/LambdaSongController.php.html#15\">App\\Http\\Controllers\\API\\LambdaSongController::__construct<\/a>"],[100,1,"<a href=\"API\/LambdaSongController.php.html#19\">App\\Http\\Controllers\\API\\LambdaSongController::put<\/a>"],[50,2,"<a href=\"API\/LambdaSongController.php.html#39\">App\\Http\\Controllers\\API\\LambdaSongController::remove<\/a>"],[100,1,"<a href=\"API\/LikeMultipleSongsController.php.html#16\">App\\Http\\Controllers\\API\\LikeMultipleSongsController::__invoke<\/a>"],[0,1,"<a href=\"API\/MovePlaylistSongsController.php.html#12\">App\\Http\\Controllers\\API\\MovePlaylistSongsController::__invoke<\/a>"],[100,1,"<a href=\"API\/PlaylistCollaboration\/AcceptPlaylistCollaborationInviteController.php.html#14\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\AcceptPlaylistCollaborationInviteController::__invoke<\/a>"],[100,1,"<a href=\"API\/PlaylistCollaboration\/CreatePlaylistCollaborationTokenController.php.html#13\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\CreatePlaylistCollaborationTokenController::__invoke<\/a>"],[0,1,"<a href=\"API\/PlaylistCollaboration\/PlaylistCollaboratorController.php.html#17\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\PlaylistCollaboratorController::__construct<\/a>"],[0,1,"<a href=\"API\/PlaylistCollaboration\/PlaylistCollaboratorController.php.html#23\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\PlaylistCollaboratorController::index<\/a>"],[0,4,"<a href=\"API\/PlaylistCollaboration\/PlaylistCollaboratorController.php.html#30\">App\\Http\\Controllers\\API\\PlaylistCollaboration\\PlaylistCollaboratorController::destroy<\/a>"],[100,1,"<a href=\"API\/PlaylistController.php.html#24\">App\\Http\\Controllers\\API\\PlaylistController::__construct<\/a>"],[100,1,"<a href=\"API\/PlaylistController.php.html#32\">App\\Http\\Controllers\\API\\PlaylistController::index<\/a>"],[86.66666666666667,6,"<a href=\"API\/PlaylistController.php.html#37\">App\\Http\\Controllers\\API\\PlaylistController::store<\/a>"],[85.71428571428571,5,"<a href=\"API\/PlaylistController.php.html#62\">App\\Http\\Controllers\\API\\PlaylistController::update<\/a>"],[100,1,"<a href=\"API\/PlaylistController.php.html#84\">App\\Http\\Controllers\\API\\PlaylistController::destroy<\/a>"],[100,1,"<a href=\"API\/PlaylistCoverController.php.html#12\">App\\Http\\Controllers\\API\\PlaylistCoverController::__construct<\/a>"],[100,1,"<a href=\"API\/PlaylistCoverController.php.html#16\">App\\Http\\Controllers\\API\\PlaylistCoverController::update<\/a>"],[100,1,"<a href=\"API\/PlaylistCoverController.php.html#24\">App\\Http\\Controllers\\API\\PlaylistCoverController::destroy<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderController.php.html#17\">App\\Http\\Controllers\\API\\PlaylistFolderController::__construct<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderController.php.html#23\">App\\Http\\Controllers\\API\\PlaylistFolderController::index<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderController.php.html#28\">App\\Http\\Controllers\\API\\PlaylistFolderController::store<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderController.php.html#33\">App\\Http\\Controllers\\API\\PlaylistFolderController::update<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderController.php.html#40\">App\\Http\\Controllers\\API\\PlaylistFolderController::destroy<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderPlaylistController.php.html#14\">App\\Http\\Controllers\\API\\PlaylistFolderPlaylistController::__construct<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderPlaylistController.php.html#18\">App\\Http\\Controllers\\API\\PlaylistFolderPlaylistController::store<\/a>"],[100,1,"<a href=\"API\/PlaylistFolderPlaylistController.php.html#27\">App\\Http\\Controllers\\API\\PlaylistFolderPlaylistController::destroy<\/a>"],[100,1,"<a href=\"API\/PlaylistSongController.php.html#24\">App\\Http\\Controllers\\API\\PlaylistSongController::__construct<\/a>"],[100,2,"<a href=\"API\/PlaylistSongController.php.html#32\">App\\Http\\Controllers\\API\\PlaylistSongController::index<\/a>"],[100,1,"<a href=\"API\/PlaylistSongController.php.html#44\">App\\Http\\Controllers\\API\\PlaylistSongController::store<\/a>"],[100,2,"<a href=\"API\/PlaylistSongController.php.html#57\">App\\Http\\Controllers\\API\\PlaylistSongController::createResourceCollection<\/a>"],[100,1,"<a href=\"API\/PlaylistSongController.php.html#64\">App\\Http\\Controllers\\API\\PlaylistSongController::destroy<\/a>"],[0,1,"<a href=\"API\/Podcast\/FetchEpisodeController.php.html#11\">App\\Http\\Controllers\\API\\Podcast\\FetchEpisodeController::__invoke<\/a>"],[0,1,"<a href=\"API\/Podcast\/PodcastController.php.html#21\">App\\Http\\Controllers\\API\\Podcast\\PodcastController::__construct<\/a>"],[0,1,"<a href=\"API\/Podcast\/PodcastController.php.html#28\">App\\Http\\Controllers\\API\\Podcast\\PodcastController::index<\/a>"],[0,2,"<a href=\"API\/Podcast\/PodcastController.php.html#33\">App\\Http\\Controllers\\API\\Podcast\\PodcastController::store<\/a>"],[0,1,"<a href=\"API\/Podcast\/PodcastController.php.html#43\">App\\Http\\Controllers\\API\\Podcast\\PodcastController::show<\/a>"],[0,1,"<a href=\"API\/Podcast\/PodcastEpisodeController.php.html#13\">App\\Http\\Controllers\\API\\Podcast\\PodcastEpisodeController::__construct<\/a>"],[0,2,"<a href=\"API\/Podcast\/PodcastEpisodeController.php.html#19\">App\\Http\\Controllers\\API\\Podcast\\PodcastEpisodeController::index<\/a>"],[0,1,"<a href=\"API\/Podcast\/UnsubscribeFromPodcastController.php.html#15\">App\\Http\\Controllers\\API\\Podcast\\UnsubscribeFromPodcastController::__invoke<\/a>"],[100,1,"<a href=\"API\/PrivatizeSongsController.php.html#16\">App\\Http\\Controllers\\API\\PrivatizeSongsController::__invoke<\/a>"],[100,1,"<a href=\"API\/ProfileController.php.html#21\">App\\Http\\Controllers\\API\\ProfileController::__construct<\/a>"],[0,1,"<a href=\"API\/ProfileController.php.html#29\">App\\Http\\Controllers\\API\\ProfileController::show<\/a>"],[100,5,"<a href=\"API\/ProfileController.php.html#34\">App\\Http\\Controllers\\API\\ProfileController::update<\/a>"],[100,1,"<a href=\"API\/PublicizeSongsController.php.html#16\">App\\Http\\Controllers\\API\\PublicizeSongsController::__invoke<\/a>"],[100,1,"<a href=\"API\/QueueStateController.php.html#15\">App\\Http\\Controllers\\API\\QueueStateController::__construct<\/a>"],[100,1,"<a href=\"API\/QueueStateController.php.html#19\">App\\Http\\Controllers\\API\\QueueStateController::show<\/a>"],[100,1,"<a href=\"API\/QueueStateController.php.html#24\">App\\Http\\Controllers\\API\\QueueStateController::update<\/a>"],[100,1,"<a href=\"API\/RegisterPlayController.php.html#17\">App\\Http\\Controllers\\API\\RegisterPlayController::__invoke<\/a>"],[100,2,"<a href=\"API\/ResetPasswordController.php.html#14\">App\\Http\\Controllers\\API\\ResetPasswordController::__invoke<\/a>"],[100,3,"<a href=\"API\/ScrobbleController.php.html#15\">App\\Http\\Controllers\\API\\ScrobbleController::__invoke<\/a>"],[100,1,"<a href=\"API\/SearchYouTubeController.php.html#12\">App\\Http\\Controllers\\API\\SearchYouTubeController::__invoke<\/a>"],[100,1,"<a href=\"API\/SetLastfmSessionKeyController.php.html#14\">App\\Http\\Controllers\\API\\SetLastfmSessionKeyController::__invoke<\/a>"],[100,1,"<a href=\"API\/SettingController.php.html#16\">App\\Http\\Controllers\\API\\SettingController::__construct<\/a>"],[100,1,"<a href=\"API\/SettingController.php.html#22\">App\\Http\\Controllers\\API\\SettingController::update<\/a>"],[100,1,"<a href=\"API\/SongController.php.html#25\">App\\Http\\Controllers\\API\\SongController::__construct<\/a>"],[100,3,"<a href=\"API\/SongController.php.html#35\">App\\Http\\Controllers\\API\\SongController::index<\/a>"],[100,1,"<a href=\"API\/SongController.php.html#47\">App\\Http\\Controllers\\API\\SongController::show<\/a>"],[100,1,"<a href=\"API\/SongController.php.html#54\">App\\Http\\Controllers\\API\\SongController::update<\/a>"],[100,1,"<a href=\"API\/SongController.php.html#77\">App\\Http\\Controllers\\API\\SongController::destroy<\/a>"],[100,1,"<a href=\"API\/SongSearchController.php.html#15\">App\\Http\\Controllers\\API\\SongSearchController::__invoke<\/a>"],[100,1,"<a href=\"API\/ToggleLikeSongController.php.html#16\">App\\Http\\Controllers\\API\\ToggleLikeSongController::__invoke<\/a>"],[100,1,"<a href=\"API\/UnlikeMultipleSongsController.php.html#15\">App\\Http\\Controllers\\API\\UnlikeMultipleSongsController::__invoke<\/a>"],[83.33333333333334,2,"<a href=\"API\/UpdatePlaybackStatusController.php.html#16\">App\\Http\\Controllers\\API\\UpdatePlaybackStatusController::__invoke<\/a>"],[0,1,"<a href=\"API\/UpdateUserPreferenceController.php.html#14\">App\\Http\\Controllers\\API\\UpdateUserPreferenceController::__invoke<\/a>"],[100,1,"<a href=\"API\/UploadAlbumCoverController.php.html#13\">App\\Http\\Controllers\\API\\UploadAlbumCoverController::__invoke<\/a>"],[100,1,"<a href=\"API\/UploadArtistImageController.php.html#13\">App\\Http\\Controllers\\API\\UploadArtistImageController::__invoke<\/a>"],[80,3,"<a href=\"API\/UploadController.php.html#21\">App\\Http\\Controllers\\API\\UploadController::__invoke<\/a>"],[100,1,"<a href=\"API\/UserController.php.html#17\">App\\Http\\Controllers\\API\\UserController::__construct<\/a>"],[0,1,"<a href=\"API\/UserController.php.html#23\">App\\Http\\Controllers\\API\\UserController::index<\/a>"],[100,2,"<a href=\"API\/UserController.php.html#30\">App\\Http\\Controllers\\API\\UserController::store<\/a>"],[80,3,"<a href=\"API\/UserController.php.html#42\">App\\Http\\Controllers\\API\\UserController::update<\/a>"],[100,1,"<a href=\"API\/UserController.php.html#59\">App\\Http\\Controllers\\API\\UserController::destroy<\/a>"],[100,1,"<a href=\"API\/UserInvitationController.php.html#21\">App\\Http\\Controllers\\API\\UserInvitationController::__construct<\/a>"],[100,2,"<a href=\"API\/UserInvitationController.php.html#28\">App\\Http\\Controllers\\API\\UserInvitationController::invite<\/a>"],[33.33333333333333,2,"<a href=\"API\/UserInvitationController.php.html#41\">App\\Http\\Controllers\\API\\UserInvitationController::get<\/a>"],[50,2,"<a href=\"API\/UserInvitationController.php.html#50\">App\\Http\\Controllers\\API\\UserInvitationController::accept<\/a>"],[60,2,"<a href=\"API\/UserInvitationController.php.html#61\">App\\Http\\Controllers\\API\\UserInvitationController::revoke<\/a>"],[0,2,"<a href=\"AuthorizeDropboxController.php.html#14\">App\\Http\\Controllers\\AuthorizeDropboxController::__invoke<\/a>"],[100,1,"<a href=\"Download\/DownloadAlbumController.php.html#15\">App\\Http\\Controllers\\Download\\DownloadAlbumController::__invoke<\/a>"],[100,1,"<a href=\"Download\/DownloadArtistController.php.html#15\">App\\Http\\Controllers\\Download\\DownloadArtistController::__invoke<\/a>"],[100,1,"<a href=\"Download\/DownloadFavoritesController.php.html#14\">App\\Http\\Controllers\\Download\\DownloadFavoritesController::__invoke<\/a>"],[87.5,2,"<a href=\"Download\/DownloadPlaylistController.php.html#16\">App\\Http\\Controllers\\Download\\DownloadPlaylistController::__invoke<\/a>"],[85.71428571428571,3,"<a href=\"Download\/DownloadSongsController.php.html#15\">App\\Http\\Controllers\\Download\\DownloadSongsController::__invoke<\/a>"],[100,3,"<a href=\"IndexController.php.html#12\">App\\Http\\Controllers\\IndexController::__invoke<\/a>"],[100,1,"<a href=\"LastfmController.php.html#15\">App\\Http\\Controllers\\LastfmController::__construct<\/a>"],[100,1,"<a href=\"LastfmController.php.html#22\">App\\Http\\Controllers\\LastfmController::connect<\/a>"],[100,1,"<a href=\"LastfmController.php.html#42\">App\\Http\\Controllers\\LastfmController::callback<\/a>"],[100,1,"<a href=\"PlayController.php.html#14\">App\\Http\\Controllers\\PlayController::__invoke<\/a>"],[100,1,"<a href=\"SSO\/GoogleCallbackController.php.html#14\">App\\Http\\Controllers\\SSO\\GoogleCallbackController::__invoke<\/a>"],[0,1,"<a href=\"ViewSongOnITunesController.php.html#13\">App\\Http\\Controllers\\ViewSongOnITunesController::__invoke<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
